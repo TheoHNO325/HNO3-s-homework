@@ -16,11 +16,12 @@ def load_class_names(classes_file):
         classes = [line.strip() for line in f if line.strip()]
     return classes
 
-def draw_boxes(image, results, class_names, conf_threshold=0.25, line_thickness=2, font_scale=0.6):
+def draw_boxes(image, results, class_names, conf_threshold=0.25, line_thickness=5, font_scale=3.0):
     """在图像上绘制检测框和标签"""
     detected_objects = []
     
     for result in results:
+        print(result)
         boxes = result.boxes
         for box in boxes:
             # 获取边界框坐标

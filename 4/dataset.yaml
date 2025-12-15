@@ -2,13 +2,13 @@ names:
 - NongFu spring_Drink water_550ml
 - Cestbon_Drink water_555ml
 - Pepsi_600
-- Coca_cola_500
-- Coca_cola_zero_degree
 - Sprite_500
 - Assam milk tea_Original flavor_500ml
+- Assam milk tea_Fried tea milky green_450ml
 - C vitamin water_Citrus flavor_500ml
+- C100_Calamansi_445ml
 nc: 8
-path: /home/hno3/Documents/GithubFiles/作业/dataset_balanced
+path: /home/hno3/Documents/GithubFiles/4/dataset_balanced
 test: images/test
 train: images/train
 val: images/val

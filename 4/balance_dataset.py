@@ -45,7 +45,7 @@ def augment_image(image_path, output_path, augmentation_type='random'):
     
     if augmentation_type == 'random':
         augmentation_type = random.choice([
-            'flip_horizontal', 'flip_vertical', 'rotate', 
+            'flip_horizontal', 'flip_vertical',  
             'brightness', 'contrast', 'noise', 'blur'
         ])
     
@@ -53,12 +53,6 @@ def augment_image(image_path, output_path, augmentation_type='random'):
         img = cv2.flip(img, 1)
     elif augmentation_type == 'flip_vertical':
         img = cv2.flip(img, 0)
-    elif augmentation_type == 'rotate':
-        angle = random.uniform(-15, 15)
-        h, w = img.shape[:2]
-        center = (w // 2, h // 2)
-        M = cv2.getRotationMatrix2D(center, angle, 1.0)
-        img = cv2.warpAffine(img, M, (w, h), borderMode=cv2.BORDER_REPLICATE)
     elif augmentation_type == 'brightness':
         alpha = random.uniform(0.8, 1.2)
         img = cv2.convertScaleAbs(img, alpha=alpha, beta=0)

@@ -17,7 +17,7 @@ SELECTED_CLASS_INDICES = None  # 使用所有类别
 # 例如: SELECTED_CLASS_NAMES = ['Coca_cola_500', 'Pepsi_600', 'Sprite_500']
 # 如果设置了SELECTED_CLASS_NAMES，将优先使用类别名称
 
-SELECTED_CLASS_NAMES = ['NongFu spring_Drink water_550ml','Cestbon_Drink water_555ml', 'Pepsi_600', 'Coca_cola_500','Coca_cola_zero_degree', 'Sprite_500','Assam milk tea_Original flavor_500ml','C vitamin water_Citrus flavor_500ml'] # 使用所有类别
+SELECTED_CLASS_NAMES = ['NongFu spring_Drink water_550ml','Cestbon_Drink water_555ml', 'Pepsi_600', 'Sprite_500','Assam milk tea_Original flavor_500ml','Assam milk tea_Fried tea milky green_450ml','C vitamin water_Citrus flavor_500ml','C100_Calamansi_445ml'] # 使用所有类别
 
 # ============================================================================
 # 其他训练配置
@@ -56,16 +56,16 @@ AUGMENTATION_CONFIG = {
     'translate': 0.1,    # 平移范围 (0-1, 相对于图像尺寸)
     'scale': 0.5,        # 缩放范围 (1-scale to 1+scale)
     'shear': 2.0,        # 剪切角度范围 (degrees)
-    'perspective': 0.0,  # 透视变换 (0-0.001)
+    'perspective': 0.0005,  # 透视变换 (0-0.001)
     
     # 翻转
-    'flipud': 0.0,       # 上下翻转概率 (0-1)
-    'fliplr': 0.5,       # 左右翻转概率 (0-1)
+    'flipud': 0.3,       # 上下翻转概率 (0-1)
+    'fliplr': 0.3,       # 左右翻转概率 (0-1)
     
     # 高级增强
-    'mosaic': 1.0,       # 马赛克增强概率 (0-1)
+    'mosaic': 0.5,       # 马赛克增强概率 (0-1)
     'mixup': 0.1,        # 混合增强概率 (0-1)
-    'copy_paste': 0.0,   # 复制粘贴增强概率 (0-1)
+    'copy_paste': 0.3,   # 复制粘贴增强概率 (0-1)
 }
 
 # ============================================================================
@@ -79,7 +79,7 @@ ENABLE_CLASS_BALANCING = True
 CLASS_BALANCING_METHOD = 'augment'  # 推荐使用 'augment'
 
 # 目标样本数（None表示使用最大类别的80%）
-TARGET_SAMPLES_PER_CLASS = 500
+TARGET_SAMPLES_PER_CLASS = 200
 
 # 加权损失（当使用weighted_loss时）
 USE_WEIGHTED_LOSS = False

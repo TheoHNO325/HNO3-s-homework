@@ -154,7 +154,7 @@ def process_dataset(voc_root, output_root, class_to_idx):
 
 def main():
     # 路径配置
-    voc_root = Path(__file__).parent / 'VOC2007' / 'VOC2007'
+    voc_root = Path(__file__).parent / 'VOC2007'
     output_root = Path(__file__).parent / 'dataset'
     labels_file = voc_root / 'labels.txt'
     

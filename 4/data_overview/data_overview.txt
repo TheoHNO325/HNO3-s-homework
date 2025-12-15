@@ -1,0 +1,79 @@
+================================================================================
+数据概览报告
+================================================================================
+
+总类别数: 68
+总样本数: 5071
+
+--------------------------------------------------------------------------------
+类别索引       类别名称                                               样本数量      
+--------------------------------------------------------------------------------
+0          NFC_fruit juice_300ml                              52        
+1          Sparkling soda water_white peach flavor_480ml      34        
+2          Red_Bull_250ml                                     43        
+3          Plum garden_Sweet milk_225ml                       34        
+4          Mirinda_orange_300ml                               45        
+5          Jasmine Honey Tea_500ml                            46        
+6          Mizone_Lime flavours_600ml                         45        
+7          Menzia seed_pomegranate_290ml                      43        
+8          WeiquanDaily_OrangeJuice_300ml                     37        
+9          OriginalHeart_PlainYogurt_245g                     54        
+10         Soda_Peach flavor_410ml                            58        
+11         Wahaha_Pure water_550ml                            63        
+12         Master kong_Drink water_550ml                      66        
+13         NongFu Spring_Long white snow_535ml                82        
+14         Alkaqua_mineral water_570ml                        70        
+15         Evergrande spring_Low sodium mineral water_500ml   84        
+16         Wahaha_Pure water_596ml                            67        
+17         Chunyue_Drink water_550ml                          58        
+18         Ganter_Natural mineral water_348ml                 78        
+19         Evergrande spring _Mineral water_500ml             46        
+20         NongFu spring_Drink water_550ml                    235       
+21         Yang dao_Drink water_550ml                         84        
+22         Drink boiled water_Drink water_550ml               64        
+23         Cestbon_Drink water_555ml                          139       
+24         Pepsi_Aquafina_550ml                               77        
+25         Ganter_Drink water_560ml                           96        
+26         Master kong_Mist green tea_500ml                   84        
+27         Pepsi cola_White peach oolong flavor_330ml         73        
+28         Genki forest_Pomegrante red raspberry flavor_480ml 80        
+29         Assam milk tea_Fried tea milky green_450ml         76        
+30         Oriental leaf_oolong_500ml                         73        
+31         Assam milk tea_Original flavor_500ml               84        
+32         Classmate xiaoming_Lime black tea_480ml            86        
+33         En snow_White peach soda_480ml                     68        
+34         Silver heron_Peanut milk_450ml                     76        
+35         Del monte_ Prune juice_473ml                       72        
+36         C100_Calamansi_445ml                               92        
+37         C vitamin water_Citrus flavor_500ml                67        
+38         Mirinda juice bubble drink_Apple flavor_450ml      69        
+39         Mizone_Blood grapefruit orange flavor_600ml        93        
+40         Chubang_Cooking wine_500ml                         52        
+41         Lee Kun Kee_Craft aromatic vinegar_500ml           82        
+42         Fresh on the tree_Litsea cubeba oil_130ml          43        
+43         Lee Kun Kee_Salt reduced Light Soy Sauce_1750ml    71        
+44         MengXY_Flax seed oil_500ml                         63        
+45         Lee Kun Kee_Salt reduced oyster sauce_240g         60        
+46         Lee Kun Kee_Seasoned soy sauce_500ml               57        
+47         Changcom_Perfume sesame oil_360ml                  75        
+48         Dongkang_Changsha vinegar_420ml                    72        
+49         Lee Kun Kee_Selected oyster sauce_490g             54        
+50         AD_ga                                              83        
+51         Tea_Pi_grapefruit_tea                              84        
+52         Tea_PI_ross                                        49        
+53         Pepsi_330                                          35        
+54         Pepsi_600                                          121       
+55         Coca_cola_zero_degree                              57        
+56         Sprite_500                                         123       
+57         Coca_cola_500                                      127       
+58         Coca_cola_330                                      66        
+59         Fanta_500                                          116       
+60         Fanta_green                                        82        
+61         RIO_pink_275                                       66        
+62         RIO_blue                                           142       
+63         Budweiser_600                                      95        
+64         Budweiser_500                                      97        
+65         Harbin_peer_ice_500                                79        
+66         WLG_330                                            60        
+67         KELER                                              67        
+--------------------------------------------------------------------------------
